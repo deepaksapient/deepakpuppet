@@ -1,5 +1,5 @@
 node default {
-	file => { /root/puppettes
+	file {'/root/puppettes':
 	ensure => file
 	}
 }
